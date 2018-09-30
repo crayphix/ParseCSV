@@ -1,0 +1,13 @@
+Person_id,Name,Weight,Height,Phone,Address1,City,State,Zip,Nicknames
+1,Paul Abrams,169,5'9,555-555-5555,111 This Lane,Washington,DC,20002,"coffee guy, The dude"
+2,Doug fur,169,6'8, 555-555-5555,111 This Lane,Washington,DC,20002,"ButterFingers, Paulo"
+3,Jesse James,189,5'8,555-555-5555,111 That Lane,Washington,DC,20002,"ButterFingers"
+// loop through data and send to arraylist rawDBeans
+7,Hes,123,32,23,32,23,32,23,32
+34,334,34,34,34,34,34,34,34,45
+34,34,656,32
+5,Jesse James,189,5'8,555-555-5555,111 That Lane,Washington,DC,20002,"ButterFingers"
+asdf
+dfaf
+10,Jesse James,189,5'8,555-555-5555,111 That Lane,Washington,DC,20002,"ButterFingers"
+8,Jesse James,189,5'8,555-555-5555,111 Th:wat Lane,Washington,DC,20002,"ButterFingers"

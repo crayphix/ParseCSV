@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ms3.interview</groupId>
+  <artifactId>parseCSV</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0</version>
+  <name>parseCSV</name>
+  <url>http://maven.apache.org</url>
+    
+    <licenses>
+      <license>
+        <name>Apache 2</name>
+        <url>http://apache.org/licenses/LICENSE-2.0.txt</url>
+        <distribution>repo</distribution>
+      </license>
+    </licenses>
+
+    <developers>
+      <developer>
+        <id>BSpeelman</id>
+        <name>Bryan Speelman</name>
+        <email>bryspeelm@gmail.com</email>
+      </developer>
+    </developers>
+
+    <repositories>
+    <repository>
+      <id>tmate</id>
+      <url>http://maven.tmatesoft.com/content/repositories/releases</url>
+    </repository>
+  </repositories>
+
+
+  <dependencies>
+    <!--CSV API-->
+      <dependency>
+          <groupId>net.sf.supercsv</groupId>
+          <artifactId>super-csv-java8</artifactId>
+          <version>2.4.0</version>
+      </dependency>
+      <!--Unit testing-->
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    <!--SQLite JDBC library-->
+    <dependency>
+      <groupId>org.xerial</groupId>
+      <artifactId>sqlite-jdbc</artifactId>
+      <version>3.23.1</version>
+    </dependency>
+    <!--Logging-->
+    <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <version>1.2.17</version>
+    </dependency>
+      <dependency>
+          <groupId>commons-io</groupId>
+          <artifactId>commons-io</artifactId>
+          <version>2.5</version>
+      </dependency>
+  </dependencies>
+  <!--Compiler fix-->
+  <properties>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+  <!--build -->
+  <build>
+            <plugins>
+                <plugin>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>2.3.2</version>
+                    <configuration>
+                        <source>1.8</source>
+                        <target>1.8</target>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </build>
+</project>
+
