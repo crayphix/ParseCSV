@@ -1,5 +1,15 @@
-Sep 30, 2018 3:14:32 AM com.ms3.java.Main main
+Sep 30, 2018 2:46:44 PM com.ms3.java.Main main
 INFO: 
 13 of records received
 9 of records successful
 4 of records failed
+Sep 30, 2018 2:47:51 PM com.ms3.java.Main main
+INFO: 
+10101 of records received
+10001 of records successful
+100 of records failed
+Sep 30, 2018 2:49:55 PM com.ms3.java.Main main
+INFO: 
+10101 of records received
+10001 of records successful
+100 of records failed

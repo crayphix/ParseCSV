@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="test.csv" uuid="20eedd87-db30-4d4f-ab3a-0ef7326c0e7e">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" family="SQLITE" exact-version="0.0" />
-      <secret-storage>master_key</secret-storage>
-      <auth-required>false</auth-required>
-      <first-sync>true</first-sync>
-    </data-source>
-    <data-source name="finalTest" uuid="7e99c1c6-614a-40ab-bfec-a3469405eaeb">
+    <data-source name="testDB" uuid="4a36dc37-df47-49d4-bbe9-feaafb8dc3ba">
       <database-info product="SQLite" version="3.20.1" jdbc-version="2.1" driver-name="SQLite JDBC" driver-version="3.20.1.1" family="SQLITE" exact-version="3.20.1" />
       <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
-      <secret-storage>master_key</secret-storage>
       <auth-required>false</auth-required>
       <introspection-schemas>*:@</introspection-schemas>
     </data-source>

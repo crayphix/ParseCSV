@@ -3,6 +3,11 @@ package com.ms3.java;
 import java.sql.*;
 import java.util.ArrayList;
 import java.io.File;
+import java.sql.DriverManager;
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 
 public class SQLiteDB {
     private String dbName = null;
@@ -25,7 +30,7 @@ public class SQLiteDB {
             try (Connection conn = DriverManager.getConnection(url)) {
                 if (conn != null) {
                     DatabaseMetaData meta = conn.getMetaData();
-                    System.out.println("A new database has been created.");
+                    System.out.println("Connected to Database: " + this.dbName);
                 }
             } catch (SQLException e) {
                 System.out.println(e.getMessage());
@@ -109,6 +114,43 @@ public class SQLiteDB {
             }
         } catch (SQLException e) {
             System.out.println(e.getMessage());
+        }
+    }
+
+    public void getDBData(String tableName) throws Exception {
+        this.tableName = tableName;
+
+        // SQLite connection string
+        String url = "jdbc:sqlite:" + this.dbName;
+
+        // SQL statement for inserting DBean object
+        String sql = "SELECT * FROM " + this.tableName;
+
+        //attempt to drop table
+        try (Connection conn = DriverManager.getConnection(url);
+             Statement stmt = conn.createStatement();
+             ResultSet rs = stmt.executeQuery(sql)) {
+
+                //loop through result set
+                while(rs.next()){
+                    System.out.println(rs.getString(1) + " | " +
+                            rs.getString(2) + " | " +
+                            rs.getString(3) + " | " +
+                            rs.getString(4) + " | " +
+                            rs.getString(5) + " | " +
+                            rs.getString(6) + " | " +
+                            rs.getString(7) + " | " +
+                            rs.getString(8) + " | " +
+                            rs.getString(9) + " | " +
+                            rs.getString(10)
+                            );
+                }
+
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+        catch (NullPointerException e){
+            e.printStackTrace();
         }
     }
 }
