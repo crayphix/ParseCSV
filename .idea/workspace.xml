@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16012a27-01da-4f7f-928b-760cd47d31d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ParseCSVTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bad-data-2018-09-30.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finalTest" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/parseCSV.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ms3/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ms3/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ms3/java/SQLiteDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ms3/java/SQLiteDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ms3/java/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ms3/java/SQLiteDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/parseCSV-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/parseCSV-1.0.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,7 +38,7 @@
     <session id="-241604943">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.13" value="1" />
@@ -152,13 +142,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bad-data-2018-09-30.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-949" />
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ms3/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -185,15 +168,6 @@
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/parseCSV.log">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -316,7 +290,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/bspee/Desktop/ms3/parseCSV/src/main/java/com/ms3/java/FileIO.java&#10;settings&#9;ACTION&#9;Database.Settings" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538335605178" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538336830224" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../test.csv" />
@@ -418,16 +392,15 @@
       <workItem from="1538162867761" duration="8200000" />
       <workItem from="1538258870776" duration="31790000" />
       <workItem from="1538291181730" duration="735000" />
-      <workItem from="1538327264760" duration="8939000" />
+      <workItem from="1538327264760" duration="9134000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65065000" />
+    <option name="totallyTimeSpent" value="65260000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19296375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
