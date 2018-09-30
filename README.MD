@@ -6,12 +6,18 @@
  A method for creating large CSV for testing can be located @ /src/test/java/ParseCSVTest
 
  Console flags for running program:
+
    -p (parse file into database)
+ 
    Format:"-p FileName.csv DatabaseName TableName"
+ 
    Example: "-p testCSV.csv testDB testTable2"
 
+ 
    -r (read database info to console)
+ 
    Format: "-r DataBaseName TableName"
+ 
    Example: "-r testDB testTable"
 
 Approach
